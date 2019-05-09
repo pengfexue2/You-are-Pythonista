@@ -1,0 +1,7 @@
+1. baiduyuyin.py 语音识别将语音信息转化为文本，描述假期
+
+2. chatbox.py 调用摄像头进行面部识别，对摄像头内容图片添加聊天框和文本信息，动态视频展示假期描述
+chatbox.py中用到的面部识别模块shape_predictor_68_face_landmarks.dat文件下载链接：
+https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat
+
+3. 后期打算将1和2结合，摄像头动态拍摄，将语音信息实时展示在聊天框内
